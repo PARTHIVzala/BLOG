@@ -33,12 +33,12 @@ function AddBlog() {
                 createdAt: new Date()
             });
 
-            alert("Blog Added ✅");
+            alert("Blog Added ");
 
             navigate('/')
         } catch (error) {
             console.log(error);
-            alert("Error aavi 😢");
+            alert("Error aavi");
         }
     }
 
