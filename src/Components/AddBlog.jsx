@@ -26,7 +26,6 @@ function AddBlog() {
         e.preventDefault();
 
         try {
-            // 🔥 Firebase ma data save
             await addDoc(collection(db, "blogs"), {
                 title: formData.title,
                 content: formData.content,
